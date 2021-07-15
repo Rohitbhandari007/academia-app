@@ -16,6 +16,7 @@ import {
   GalleryStackScreen,
   HomeStackScreen,
   MaterialStackScreen,
+  OnboardStackScreen,
   PersonDetailStackScreen,
   SettingStackScreen,
   SubjectStackScreen,
@@ -34,7 +35,7 @@ const DrawerTab = () => {
       card: "white",
       btn: "#583EFF",
       msgIcon: "black",
-      mainblue: "#473f97",
+      mainblue: "#6765c2",
       buttomtab: "#0E243F",
       border: "lightgray",
       upcoming: "#515a8a",
@@ -61,6 +62,7 @@ const DrawerTab = () => {
       dialogs: "#191b2a",
       midBox: "#212538",
       searchDiv: "#39405c",
+      
     },
   };
 
@@ -90,6 +92,7 @@ const DrawerTab = () => {
           name="PersonDetail"
           component={PersonDetailStackScreen}
         />
+       
       </Drawer.Navigator>
     </NavigationContainer>
   );
